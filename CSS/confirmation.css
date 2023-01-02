@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+    }
+.nav2 {
+   
+    background-color: rgba(102, 74, 90, 0.6);
+}
+.nav2{
+    background-color: rgba(102, 74, 90, 0.6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+}
+
+header {
+    line-height: 6rem;
+    height: 6rem;
+   
+}
+
+header ul::after {
+    display: table;
+    clear: both;
+}
+header li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    text-transform: uppercase;
+    list-style:none;
+}
+header li a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body { 
+    width: 100%; 
+    height: 100%; 
+    background-color:#F4E7EE;
+    margin: 0; 
+    padding: 0; 
+    -webkit-font-smoothing: antialiased; 
+}
+
+table {
+    margin: auto;
+}
+
+div, p, a, li, td { 
+    -webkit-text-size-adjust: none; 
+}
+
+.ReadMsgBody {
+    width: 100%; 
+    background-color: #F3DEEB; 
+}
+
+.ExternalClass { 
+    width: 100%; 
+    background-color: #F3DEEB; 
+}
+
+html { 
+    width: 100%; 
+}
+  
+p { 
+    padding: 0 !important; 
+    margin-top: 0 !important; 
+    margin-right: 0 !important; 
+    margin-bottom: 0 !important; 
+    margin-left: 0 !important; 
+}
+  
+.visibleMobile { 
+    display: none; 
+}
+  
+.hiddenMobile { 
+    display: block; 
+}
+  
+@media only screen and (max-width: 600px) {
+    body { 
+        width: auto !important; 
+    }
+
+    table[class=fullTable] { 
+        width: 96% !important; 
+        clear: both; 
+    }
+
+    table[class=fullPadding] {
+        width: 85% !important; 
+        clear: both; 
+    }
+    
+    table[class=col] {
+        width: 45% !important; 
+    }
+
+    .erase { 
+        display: none; 
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    table[class=fullTable] {
+        width: 100% !important; 
+        clear: both; 
+    }
+    table[class=fullPadding] { 
+        width: 85% !important; 
+        clear: both; 
+    }
+    table[class=col] { 
+        width: 100% !important; 
+        clear: both; 
+    }
+    table[class=col] td { 
+        text-align: left !important; 
+    }
+    .erase { 
+        display: none; 
+        font-size: 0; 
+        max-height: 0; 
+        line-height: 0; 
+        padding: 0; 
+    }
+    .visibleMobile { 
+        display: block !important; 
+    }
+    .hiddenMobile { 
+        display: none !important; 
+    }
+  }
+
+.header {
+    width:100%;
+    border:0;
+    background-color:#F4E7EE;
+}
+
+.headerAux {
+    width:600px; 
+    border:0px;
+    border-radius: 10px 10px 0 0;
+    background-color:white;
+}
+
+.headerInnerAux {
+    width:480px; 
+    border:0px;
+}
+
+.left {
+    width:220;
+    border:0px;
+}
+
+.right {
+    width:220px;
+    border:0px;
+}
+
+.icon {
+    width:152px; 
+    height:132px;
+    border:0px;
+}
+
+.welcome {
+    font-size: 12px; 
+    color: #5b5b5b; 
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 18px; 
+    vertical-align: top; 
+    text-align: left;
+}
+
+.invoice {
+    font-size: 21px; 
+    color: #9a0202; 
+    letter-spacing: -1px; 
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1; 
+    vertical-align: top; 
+    text-align: right;
+}
+
+.orderNo {
+    font-size: 12px; 
+    color: #5b5b5b; 
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 18px; 
+    vertical-align: top; 
+    text-align: right;
+}
+
+.itemDescription {
+    padding: 0 0 10px;
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color:black; 
+    font-weight: normal; 
+    line-height: 1; 
+    vertical-align: top;
+}
+
+.itemLeft {
+    padding: 0 10px 7px 0;
+}
+
+.product {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color:#9a0202;  
+    line-height: 18px;  
+    vertical-align: top;
+    padding:10px 0;
+}
+
+.productDetail {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #646a6e;  
+    line-height: 18px;  
+    vertical-align: top; 
+    padding:10px 0;
+}
+
+.subtotal {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #1e2b33;  
+    line-height: 18px;  
+    vertical-align: top; 
+    padding:10px 0;
+}
+
+.orderTotal {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #646a6e; 
+    line-height: 22px; 
+    vertical-align: top; 
+    text-align:right;
+}
+
+.orderTax {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #b0b0b0; 
+    line-height: 22px; 
+    vertical-align: top; 
+    text-align:right;
+}
+
+.orderGrandTotal {
+    font-size: 12px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #000; 
+    line-height: 22px; 
+    vertical-align: top; 
+    text-align:right; 
+}
+
+.rodape{
+    width: 100%;
+    height: 210px;
+    margin-top: 40px;
+    background-color: rgba(102, 74, 90, 0.7);
+    color: white;
+    font-weight: 800; 
+
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+.fi{
+    margin-top: 3px;
+    width: 400px;
+    height: 205px;
+   
+}
+  
+.fi ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.fi a{
+    color: white;
+}
+.fi2 {
+    margin-top: 10px;
+    width: 180px;
+    height: 150px;
+    text-align: left;
+}
+.fi2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+}
+.fi2 a{
+   text-decoration: none; 
+   color: white;
+   text-align: left;
+}
+.fi2 ul li:hover{
+    background-color: #533d4a;
+    color: white;
+}
+
+.fi iframe{
+    width: 390px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.redes{
+    margin-left: -15px;
+}
+
+.autorais{
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    color: white;
+}
